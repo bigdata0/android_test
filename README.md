@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% 样式定义
     classDef user fill:#f9d0c4,stroke:#333,stroke-width:2px;
@@ -45,3 +46,4 @@ graph TD
     %% 记忆沉淀机制 (静默运行)
     MAIN_AGENT -.->|触发 N 轮对话阈值| EXTRACTOR
     EXTRACTOR -.->|提炼新记忆入库| DB
+```
